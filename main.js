@@ -1,26 +1,26 @@
 //Conditionals: if Statements 
 
-let playerOne = "";
-let computer = "";
+let playerOne = "rock";
+let computer = "";//computer selection will be determind from the three options in future project;
 
 if (playerOne === computer ) {
-    //tie game!
+    //console.log("tie game!")
 }else if (playerOne === "rock"){
     if (computer === "paper"){
-        //computer wins
+        //console.log('computer wins')
     } else {
-        //playerOne wins
+        //console.log ("playerOne wins")
     }
 }else if (playerOne == "paper"){
     if (computer === "scissors"){
-        //computer wins
+        //console.log("computer wins")
     }else {
-        //playerOne wins
+        //console.log("playerOne wins")
     }
 }else {
     if (computer == "rock"){
-        //computer wins
+        //console.log("computer wins")
     } else {
-        //playerOne wins
+        //console.log("playerOne wins")
     }
 }
